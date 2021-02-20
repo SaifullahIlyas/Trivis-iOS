@@ -1,7 +1,0 @@
-osx_image: 
-language:
-  - swift
-osx_image: xcode12u
-xcode_project: Trivis-iOS.xcodeproj
-xcode_scheme: Trivis-iOS
-xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 12 Pro Max
