@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B5B658325E1469400FEEBB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B658225E1469400FEEBB0 /* AppDelegate.swift */; };
+		2B5B658525E1469400FEEBB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B658425E1469400FEEBB0 /* SceneDelegate.swift */; };
+		2B5B658725E1469400FEEBB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B658625E1469400FEEBB0 /* ViewController.swift */; };
+		2B5B658A25E1469400FEEBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B658825E1469400FEEBB0 /* Main.storyboard */; };
+		2B5B658C25E1469700FEEBB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B658B25E1469700FEEBB0 /* Assets.xcassets */; };
+		2B5B658F25E1469700FEEBB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B658D25E1469700FEEBB0 /* LaunchScreen.storyboard */; };
+		2B5B659A25E1469700FEEBB0 /* Trivis_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B659925E1469700FEEBB0 /* Trivis_iOSTests.swift */; };
+		2B5B65A525E1469700FEEBB0 /* Trivis_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B65A425E1469700FEEBB0 /* Trivis_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B5B659625E1469700FEEBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5B657725E1469400FEEBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5B657E25E1469400FEEBB0;
+			remoteInfo = "Trivis-iOS";
+		};
+		2B5B65A125E1469700FEEBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5B657725E1469400FEEBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B5B657E25E1469400FEEBB0;
+			remoteInfo = "Trivis-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B5B657F25E1469400FEEBB0 /* Trivis-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivis-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B658225E1469400FEEBB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5B658425E1469400FEEBB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B5B658625E1469400FEEBB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5B658925E1469400FEEBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5B658B25E1469700FEEBB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5B658E25E1469700FEEBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5B659025E1469700FEEBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5B659525E1469700FEEBB0 /* Trivis-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trivis-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B659925E1469700FEEBB0 /* Trivis_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivis_iOSTests.swift; sourceTree = "<group>"; };
+		2B5B659B25E1469700FEEBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5B65A025E1469700FEEBB0 /* Trivis-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trivis-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B65A425E1469700FEEBB0 /* Trivis_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivis_iOSUITests.swift; sourceTree = "<group>"; };
+		2B5B65A625E1469700FEEBB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5B657C25E1469400FEEBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659225E1469700FEEBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659D25E1469700FEEBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5B657625E1469400FEEBB0 = {
+			isa = PBXGroup;
+			children = (
+				2B5B658125E1469400FEEBB0 /* Trivis-iOS */,
+				2B5B659825E1469700FEEBB0 /* Trivis-iOSTests */,
+				2B5B65A325E1469700FEEBB0 /* Trivis-iOSUITests */,
+				2B5B658025E1469400FEEBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5B658025E1469400FEEBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B657F25E1469400FEEBB0 /* Trivis-iOS.app */,
+				2B5B659525E1469700FEEBB0 /* Trivis-iOSTests.xctest */,
+				2B5B65A025E1469700FEEBB0 /* Trivis-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5B658125E1469400FEEBB0 /* Trivis-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B658225E1469400FEEBB0 /* AppDelegate.swift */,
+				2B5B658425E1469400FEEBB0 /* SceneDelegate.swift */,
+				2B5B658625E1469400FEEBB0 /* ViewController.swift */,
+				2B5B658825E1469400FEEBB0 /* Main.storyboard */,
+				2B5B658B25E1469700FEEBB0 /* Assets.xcassets */,
+				2B5B658D25E1469700FEEBB0 /* LaunchScreen.storyboard */,
+				2B5B659025E1469700FEEBB0 /* Info.plist */,
+			);
+			path = "Trivis-iOS";
+			sourceTree = "<group>";
+		};
+		2B5B659825E1469700FEEBB0 /* Trivis-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B659925E1469700FEEBB0 /* Trivis_iOSTests.swift */,
+				2B5B659B25E1469700FEEBB0 /* Info.plist */,
+			);
+			path = "Trivis-iOSTests";
+			sourceTree = "<group>";
+		};
+		2B5B65A325E1469700FEEBB0 /* Trivis-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B65A425E1469700FEEBB0 /* Trivis_iOSUITests.swift */,
+				2B5B65A625E1469700FEEBB0 /* Info.plist */,
+			);
+			path = "Trivis-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5B657E25E1469400FEEBB0 /* Trivis-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B65A925E1469700FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOS" */;
+			buildPhases = (
+				2B5B657B25E1469400FEEBB0 /* Sources */,
+				2B5B657C25E1469400FEEBB0 /* Frameworks */,
+				2B5B657D25E1469400FEEBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trivis-iOS";
+			productName = "Trivis-iOS";
+			productReference = 2B5B657F25E1469400FEEBB0 /* Trivis-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B5B659425E1469700FEEBB0 /* Trivis-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B65AC25E1469800FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOSTests" */;
+			buildPhases = (
+				2B5B659125E1469700FEEBB0 /* Sources */,
+				2B5B659225E1469700FEEBB0 /* Frameworks */,
+				2B5B659325E1469700FEEBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5B659725E1469700FEEBB0 /* PBXTargetDependency */,
+			);
+			name = "Trivis-iOSTests";
+			productName = "Trivis-iOSTests";
+			productReference = 2B5B659525E1469700FEEBB0 /* Trivis-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B5B659F25E1469700FEEBB0 /* Trivis-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B65AF25E1469800FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOSUITests" */;
+			buildPhases = (
+				2B5B659C25E1469700FEEBB0 /* Sources */,
+				2B5B659D25E1469700FEEBB0 /* Frameworks */,
+				2B5B659E25E1469700FEEBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B5B65A225E1469700FEEBB0 /* PBXTargetDependency */,
+			);
+			name = "Trivis-iOSUITests";
+			productName = "Trivis-iOSUITests";
+			productReference = 2B5B65A025E1469700FEEBB0 /* Trivis-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5B657725E1469400FEEBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2B5B657E25E1469400FEEBB0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2B5B659425E1469700FEEBB0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2B5B657E25E1469400FEEBB0;
+					};
+					2B5B659F25E1469700FEEBB0 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 2B5B657E25E1469400FEEBB0;
+					};
+				};
+			};
+			buildConfigurationList = 2B5B657A25E1469400FEEBB0 /* Build configuration list for PBXProject "Trivis-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5B657625E1469400FEEBB0;
+			productRefGroup = 2B5B658025E1469400FEEBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5B657E25E1469400FEEBB0 /* Trivis-iOS */,
+				2B5B659425E1469700FEEBB0 /* Trivis-iOSTests */,
+				2B5B659F25E1469700FEEBB0 /* Trivis-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5B657D25E1469400FEEBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B658F25E1469700FEEBB0 /* LaunchScreen.storyboard in Resources */,
+				2B5B658C25E1469700FEEBB0 /* Assets.xcassets in Resources */,
+				2B5B658A25E1469400FEEBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659325E1469700FEEBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659E25E1469700FEEBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5B657B25E1469400FEEBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B658725E1469400FEEBB0 /* ViewController.swift in Sources */,
+				2B5B658325E1469400FEEBB0 /* AppDelegate.swift in Sources */,
+				2B5B658525E1469400FEEBB0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659125E1469700FEEBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B659A25E1469700FEEBB0 /* Trivis_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B5B659C25E1469700FEEBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B65A525E1469700FEEBB0 /* Trivis_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5B659725E1469700FEEBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5B657E25E1469400FEEBB0 /* Trivis-iOS */;
+			targetProxy = 2B5B659625E1469700FEEBB0 /* PBXContainerItemProxy */;
+		};
+		2B5B65A225E1469700FEEBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B5B657E25E1469400FEEBB0 /* Trivis-iOS */;
+			targetProxy = 2B5B65A125E1469700FEEBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B5B658825E1469400FEEBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5B658925E1469400FEEBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5B658D25E1469700FEEBB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5B658E25E1469700FEEBB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5B65A725E1469700FEEBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B5B65A825E1469700FEEBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5B65AA25E1469700FEEBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXF774GF64;
+				INFOPLIST_FILE = "Trivis-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobinspire.FastL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5B65AB25E1469700FEEBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PXF774GF64;
+				INFOPLIST_FILE = "Trivis-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobinspire.FastL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B5B65AD25E1469800FEEBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivis-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobinspire.FastL.Trivis-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trivis-iOS.app/Trivis-iOS";
+			};
+			name = Debug;
+		};
+		2B5B65AE25E1469800FEEBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivis-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobinspire.FastL.Trivis-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trivis-iOS.app/Trivis-iOS";
+			};
+			name = Release;
+		};
+		2B5B65B025E1469800FEEBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivis-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobinspire.FastL.Trivis-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trivis-iOS";
+			};
+			name = Debug;
+		};
+		2B5B65B125E1469800FEEBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Trivis-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mobinspire.FastL.Trivis-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trivis-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5B657A25E1469400FEEBB0 /* Build configuration list for PBXProject "Trivis-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B65A725E1469700FEEBB0 /* Debug */,
+				2B5B65A825E1469700FEEBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5B65A925E1469700FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B65AA25E1469700FEEBB0 /* Debug */,
+				2B5B65AB25E1469700FEEBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5B65AC25E1469800FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B65AD25E1469800FEEBB0 /* Debug */,
+				2B5B65AE25E1469800FEEBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5B65AF25E1469800FEEBB0 /* Build configuration list for PBXNativeTarget "Trivis-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B65B025E1469800FEEBB0 /* Debug */,
+				2B5B65B125E1469800FEEBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5B657725E1469400FEEBB0 /* Project object */;
+}
